@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Calculator</title>
+  </head>
+  <body class="bg-black">
+    <main>
+      <section>
+        <div>
+          <input
+            id="inputBar"
+            class="w-full bg-gray-500 h-24 text-5xl text-white"
+            type="text"
+          />
+          <div class="bg-black grid grid-cols-4">
+            <button
+              onclick="addToDisplay('1')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              1
+            </button>
+            <button
+              onclick="addToDisplay('2')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              2
+            </button>
+            <button
+              onclick="addToDisplay('3')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              3
+            </button>
+            <button
+              onclick="addToDisplay('+')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              +
+            </button>
+            <button
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              4
+            </button>
+            <button
+              onclick="addToDisplay('4')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              5
+            </button>
+            <button
+              onclick="addToDisplay('5')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              5
+            </button>
+            <button
+              onclick="addToDisplay('-')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              -
+            </button>
+            <button
+              onclick="addToDisplay('6')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              6
+            </button>
+            <button
+              onclick="addToDisplay('8')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              8
+            </button>
+            <button
+              onclick="addToDisplay('9')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              9
+            </button>
+            <button
+              onclick="addToDisplay('*')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              *
+            </button>
+            <button
+              onclick="addToDisplay('0')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              0
+            </button>
+            <button
+              onclick="clearDisplay()"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              C
+            </button>
+            <button
+              onclick="submit()"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              =
+            </button>
+            <button
+              onclick="addToDisplay('/')"
+              class="bg-orange-500 text-white p-8 rounded-2xl m-4 flex align-center justify-center text-center"
+            >
+              /
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
